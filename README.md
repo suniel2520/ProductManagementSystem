@@ -1,7 +1,8 @@
-                                            Simple SpringBoot Rest CRUD API based on Asset Management System.
+                              Simple SpringBoot Rest CRUD API based on Asset Management System.
 
 It has two entity which is just a plain old java object exposing basic CRUD services
 1. Category
+
        a. Create new category             [URL : http://localhost:8080/category],        [Request Type : POST]
        b. Update a category               [URL : http://localhost:8080/category/id],     [Request Type : PUT]
        c. Get list of all category        [URL : http://localhost:8080/category],        [Request Type : GET]
@@ -10,6 +11,7 @@ It has two entity which is just a plain old java object exposing basic CRUD serv
 
 
 2. Asset
+
        a. Create new asset              [URL : http://localhost:8080/asset],        [Request Type : POST]
        b. Update an asset               [URL : http://localhost:8080/asset/id],     [Request Type : PUT]
        c. Get list of all asset         [URL : http://localhost:8080/asset],        [Request Type : GET]
