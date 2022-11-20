@@ -12,11 +12,11 @@ It has two entity which is just a plain old java object exposing basic CRUD serv
 
 2. Asset
 
-       a. Create new asset              [URL : http://localhost:8080/asset],        [Request Type : POST]
-       b. Update an asset               [URL : http://localhost:8080/asset/id],     [Request Type : PUT]
-       c. Get list of all asset         [URL : http://localhost:8080/asset],        [Request Type : GET]
-       d. Get asset by its name         [URL : http://localhost:8080/asset/id],     [Request Type : GET]
-       e. Delete an asset               [URL : http://localhost:8080/asset/id],     [Request Type : DELETE]
+       a. Create new asset              [URL : http://localhost:8080/asset],               [Request Type : POST]
+       b. Update an asset               [URL : http://localhost:8080/asset/id],            [Request Type : PUT]
+       c. Get list of all asset         [URL : http://localhost:8080/asset],               [Request Type : GET]
+       d. Get asset by its name         [URL : http://localhost:8080/asset/assetName],     [Request Type : GET]
+       e. Delete an asset               [URL : http://localhost:8080/asset/id],            [Request Type : DELETE]
        
 
 Technology Used : Java, Spring Boot, Spring Data JPA, H2 database
