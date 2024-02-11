@@ -11,8 +11,8 @@
 	<groupId>com.SpringBootRestAPI</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AssetManagement</name>
-	<description>Demo project for Spring Boot Rest API</description>
+	<name>ProductManagement</name>
+	<description>Spring Boot Rest API Product Management Application</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

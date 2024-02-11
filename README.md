@@ -1,22 +1,12 @@
-                              Simple SpringBoot Rest CRUD API based on Asset Management System.
+                              Simple SpringBoot Rest CRUD API based on Product Management System.
 
-It has two entity which is just a plain old java object exposing basic CRUD services
-1. Category
+1. List of API and it's end points
 
-       a. Create new category             [URL : http://localhost:8080/category],        [Request Type : POST]
-       b. Update a category               [URL : http://localhost:8080/category/id],     [Request Type : PUT]
-       c. Get list of all category        [URL : http://localhost:8080/category],        [Request Type : GET]
-       d. Get category by its id          [URL : http://localhost:8080/category/id],     [Request Type : GET]
-       e. Delete a category               [URL : http://localhost:8080/category/id],     [Request Type : DELETE]
+       a. Create Product                                 [URL : http://localhost:8080/api/ecommerce/create-product],                    [Request Type : POST]
+       b. Update Product                                 [URL : http://localhost:8080/api/ecommerce/update-product],                    [Request Type : PUT]
+       c. Read Product                                   [URL : http://localhost:8080/api/ecommerce/get-product],                       [Request Type : GET]
+       d. Delete Product                                 [URL : http://localhost:8080/api/ecommerce/delete-product],                    [Request Type : DELETE]
+       e. Apply Tax Or Discount to product               [URL : http://localhost:8080/api/ecommerce/product/apply-tax-or-discount],     [Request Type : PUT]
 
-
-2. Asset
-
-       a. Create new asset              [URL : http://localhost:8080/asset],               [Request Type : POST]
-       b. Update an asset               [URL : http://localhost:8080/asset/id],            [Request Type : PUT]
-       c. Get list of all asset         [URL : http://localhost:8080/asset],               [Request Type : GET]
-       d. Get asset by its name         [URL : http://localhost:8080/asset/assetName],     [Request Type : GET]
-       e. Delete an asset               [URL : http://localhost:8080/asset/id],            [Request Type : DELETE]
-       
 
 Technology Used : Java, Spring Boot, Spring Data JPA, H2 database
